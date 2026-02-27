@@ -6,6 +6,8 @@ Saat ini aku sedang mencoba mengulang dari 0 pengetahuanku mengenai data. Pengul
 * ``` Belajar Power BI Untuk Data Analyst```
 * ``` Mempelajari SQL untuk Pengolahan dan Manage Data Jumlah Besar```
 * ``` Python untuk Data Analyst dan Data Scientist```
+
+<br>
 Untuk sementara fokusku hanya kesini dulu, jika tidak ada sesuatu yang mendadak hingga harus mengubah fokusku hahahaha.
 <br>
 
