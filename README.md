@@ -1,3 +1,13 @@
+# Still Under Maintenance!!!
+Saat ini aku sedang melakukan beberapa perubahan tentang Repository ini, Repo ini akan kurapikan agar step dan progress dalam Journeyku di bidang data menjadi lebih terstruktur dan rapi!
+<br>
+Untuk perubahan yang terjadi adalah
+* ``` Pembuatan Folder-Folder yang lebih Deskriptif```
+* ``` Fase akan diubah menjadi Tools dan Project```
+<br>
+Dengan Begini saat ada yang tertarik dan ingin membaca bagaimana Journeyku dalam Data akan bisa mendapatkan bayangan yang lebih jelas tentang bagaimana aku belajar Data. Mungkin juga dengan adanya Repository ini dapat membantu memberikan Inspirasi kepada orang lain dalam mempelajari bidang Data.
+
+
 # My Journey to Become a Data Scientist
 Dalam repository ini akan tersimpan bagaimana progress yang dijalankan selama Author mendalami pemahaman tentang **DATA**. <br>
 Update dilakukan secara berkala dan bertahap. Tiap **Fase** dan **Tahap** akan mendalami tentang suatu topik yang berkaitan dengan **DATA**. <br>
