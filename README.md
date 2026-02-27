@@ -1,7 +1,14 @@
 # Still Under Maintenance!!!
 Saat ini aku sedang melakukan beberapa perubahan tentang Repository ini, Repo ini akan kurapikan agar step dan progress dalam Journeyku di bidang data menjadi lebih terstruktur dan rapi!
 <br>
-Untuk perubahan yang terjadi adalah
+Saat ini aku sedang mencoba mengulang dari 0 pengetahuanku mengenai data. Pengulangan ini aku awali dengan mempelajari fondasi dasar dari Data, yaitu **EXCEL**. Setelah itu nanti akan dilanjutkan dengan berbagai tools lain yang biasa digunakan dalam ilmu data. Rencanaku kedepan adalah untuk fokus dalam belajar dengan menggunakan Roadmap yang aku buat, secara kasar roadmapku adalah sebagai berikut:
+* ``` Belajar Excel untuk Data Analyst```
+* ``` Belajar Power BI Untuk Data Analyst```
+* ``` Mempelajari SQL untuk Pengolahan dan Manage Data Jumlah Besar```
+* ``` Python untuk Data Analyst dan Data Scientist```
+Untuk sementara fokusku hanya kesini dulu, jika tidak ada sesuatu yang mendadak hingga harus mengubah fokusku hahahaha.
+<br>
+Untuk perubahan yang terjadi adalah :
 * ``` Pembuatan Folder-Folder yang lebih Deskriptif```
 * ``` Fase akan diubah menjadi Tools dan Project```
 <br>
