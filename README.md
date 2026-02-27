@@ -8,9 +8,11 @@ Saat ini aku sedang mencoba mengulang dari 0 pengetahuanku mengenai data. Pengul
 * ``` Python untuk Data Analyst dan Data Scientist```
 Untuk sementara fokusku hanya kesini dulu, jika tidak ada sesuatu yang mendadak hingga harus mengubah fokusku hahahaha.
 <br>
-Untuk perubahan yang terjadi adalah :
+
+Untuk perubahan yang terjadi adalah:
 * ``` Pembuatan Folder-Folder yang lebih Deskriptif```
 * ``` Fase akan diubah menjadi Tools dan Project```
+
 <br>
 Dengan Begini saat ada yang tertarik dan ingin membaca bagaimana Journeyku dalam Data akan bisa mendapatkan bayangan yang lebih jelas tentang bagaimana aku belajar Data. Mungkin juga dengan adanya Repository ini dapat membantu memberikan Inspirasi kepada orang lain dalam mempelajari bidang Data.
 
