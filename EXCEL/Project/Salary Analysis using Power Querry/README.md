@@ -28,6 +28,7 @@ Data yang digunakan dalam project ini merupakan real-world data yang dikumpulkan
 ## Data Job Salaries - Chart Bar
 <img width="507" height="262" alt="Chartbar_salary Calculator" src="https://github.com/user-attachments/assets/28f50268-0a21-41ed-9ded-894fa15302d8" />
 <br>
+
 * Fitur Excel : Menggunakan fitur Bar Chart milik excel untuk memvisualisasikan perbandingan rentang gaji Data Job secara optimal
 * Organisasi Data : Data diurutkan menggunakan `Descending order` untuk memperlihatkan gaji Data Job terbesar ke yang terkecil
 * Insights yang Didapat : Membuat identifikasi data mana yang memberikan bayaran lebih tinggi secara cepat, seperti Pekerjaan data level senior membayar lebih tinggi dibandingkan dengan level Data Analyst seperti Data Analyst ataupun Business Analyst
@@ -35,6 +36,7 @@ Data yang digunakan dalam project ini merupakan real-world data yang dikumpulkan
 ## Country Median Salaries - Map Chart
 <img width="611" height="297" alt="mapchart_salary Calculator" src="https://github.com/user-attachments/assets/e702f771-09c4-4ef3-af52-f8d2f11c5497" />
 <br>
+
 * Fitur Excel : Menggunakan fitur Map milik excel untuk melakukan plotting data sesuai dengan lokasinya pada peta dunia. 
 * Data Representation : Melakukan plotting data Median_Salary untuk masing-masing negara yang memiliki data tersebut
 * Insights yang Didapat : Memberikan gambaran tentang daerah mana yang memberikan bayaran lebih tinggi ataupun rendah secara secapat.
