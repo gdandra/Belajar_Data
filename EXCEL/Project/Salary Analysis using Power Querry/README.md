@@ -60,7 +60,7 @@ IF(
 
 ## Table pada Excel
 <img width="357" height="270" alt="image" src="https://github.com/user-attachments/assets/a04597ff-c78d-493f-b59b-6ce176af9a8b" />
-<br>
+
 ## Implementasi pada Dashboard
 <img width="526" height="610" alt="median_salary dashboard" src="https://github.com/user-attachments/assets/56abb9da-73ee-43ec-a4f1-41064d8de58e" />
 
