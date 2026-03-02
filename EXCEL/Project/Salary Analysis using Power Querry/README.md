@@ -2,9 +2,12 @@
 
 <img width="1895" height="802" alt="Salary Calculator Photo" src="https://github.com/user-attachments/assets/7a4a86c0-b7c5-4358-9d36-d9969bee87f9" />
 <br>
+
 # Introduction
 Dashboard Data Job Salary ini dibuat untuk membantu menentukan gaji yang sesuai kepada para pencari kerja agar bisa menilai diri mereka secara objektif pada bidang pekerjaan mereka. <br>
-Data yang saya gunakan saya dapatkan dari Course milik Luke Barrouse. Data ini sudah mengandung informasi detail seperti job_title, salaries, location dan skill yang umum diperlukan dalam bidang data. <br>
+Data yang saya gunakan saya dapatkan dari Course milik Luke Barrouse. Data ini sudah mengandung informasi detail seperti job_title, salaries, location dan skill yang umum diperlukan dalam bidang data. 
+<br>
+
 # DISCLAIMER !!!
 Project ini merupakan project yang ada pada Course Milik Luke Barrouse. Project ini saya kerjakan dengan tujuan untuk memperdalam ilmu saya dalam bidang Data Analyst. Project ini merupakan project awal yang mengajarkan saya tentang bagaimana Excel digunakan untuk melakukan sebuah pengolahan data mentah menjadi Dashboard profesional yang rapi dan interaktif.
 
@@ -24,12 +27,14 @@ Data yang digunakan dalam project ini merupakan real-world data yang dikumpulkan
 # Dashboard Build
 ## Data Job Salaries - Chart Bar
 <img width="507" height="262" alt="Chartbar_salary Calculator" src="https://github.com/user-attachments/assets/28f50268-0a21-41ed-9ded-894fa15302d8" />
+<br>
 * Fitur Excel : Menggunakan fitur Bar Chart milik excel untuk memvisualisasikan perbandingan rentang gaji Data Job secara optimal
 * Organisasi Data : Data diurutkan menggunakan `Descending order` untuk memperlihatkan gaji Data Job terbesar ke yang terkecil
 * Insights yang Didapat : Membuat identifikasi data mana yang memberikan bayaran lebih tinggi secara cepat, seperti Pekerjaan data level senior membayar lebih tinggi dibandingkan dengan level Data Analyst seperti Data Analyst ataupun Business Analyst
 
 ## Country Median Salaries - Map Chart
 <img width="611" height="297" alt="mapchart_salary Calculator" src="https://github.com/user-attachments/assets/e702f771-09c4-4ef3-af52-f8d2f11c5497" />
+<br>
 * Fitur Excel : Menggunakan fitur Map milik excel untuk melakukan plotting data sesuai dengan lokasinya pada peta dunia. 
 * Data Representation : Melakukan plotting data Median_Salary untuk masing-masing negara yang memiliki data tersebut
 * Insights yang Didapat : Memberikan gambaran tentang daerah mana yang memberikan bayaran lebih tinggi ataupun rendah secara secapat.
@@ -53,6 +58,7 @@ IF(
 
 ## Table pada Excel
 <img width="357" height="270" alt="image" src="https://github.com/user-attachments/assets/a04597ff-c78d-493f-b59b-6ce176af9a8b" />
+<br>
 ## Implementasi pada Dashboard
 <img width="526" height="610" alt="median_salary dashboard" src="https://github.com/user-attachments/assets/56abb9da-73ee-43ec-a4f1-41064d8de58e" />
 
