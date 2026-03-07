@@ -68,4 +68,41 @@ Dalam power querry, perlu dilakukan sedikit cleaning agar data terlihat lebih en
 *Note: Kedepannya hanya akan diperlihatkan hasil Visualisasi dari excel dikarenakan hampir semua pembersihan data dari Power Querry menggunakan steps yang sama*
 
 ## Mengapa ini Penting?
-Hasil dari querry ini memberikanku gambaran yang jelas. Daripada aku mempelajari semua skills yang ada secara sekaligus, querry ini membantu memberikan fokus pada 5 skills utama yang memberikan peluang terbesar untuk mendapatkan pekerjaan di remote industri data saat ini.
+Hasil dari querry ini memberikanku gambaran yang jelas. Daripada aku mempelajari semua skills yang ada secara sekaligus, querry ini membantu memberikan fokus pada 5 skills utama yang memberikan peluang terbesar untuk mendapatkan pekerjaan di remote industri data saat ini. Dari data yang kudapat saat ini aku harus fokus dalam mendalami pengetahuanku tentang SQL, Excel dan juga Python!
+
+# Salary Benchmarking: Membedah Top 5 Pekerjaan dengan Gaji Tertinggi
+Setelah mengetahui skill apa yang paling banyak dicari, pertanyaan berikutnya yang muncul secara alami adalah: `Berapa besar apresiasi pasar terhadap peran ini?` Bagi seorang analis, memahami distribusi gaji bukan sekadar tentang angka, melainkan tentang memahami standar industri. Saya ingin mengidentifikasi posisi Data Analyst mana yang menawarkan kompensasi tertinggi secara global (Remote/'Anywhere'). Dengan melihat 5 besar pekerjaan dengan gaji tertinggi, saya bisa membedah lebih dalam: Apakah ada spesialisasi tertentu dalam judul pekerjaan tersebut? Perusahaan mana saja yang berani membayar mahal untuk talenta data?
+
+## The Strategy
+Dalam query ini, saya melakukan pembersihan data sekaligus penggabungan informasi:
+1. `Data Cleaning`: Menggunakan WHERE salary_year_avg IS NOT NULL untuk memastikan hanya data yang memiliki informasi gaji valid yang dianalisis.
+2. `Global Scope`: Memfokuskan pada job_location = 'Anywhere' untuk melihat standar gaji remote internasional.
+3. `Entity Linking`: Melakukan LEFT JOIN dengan company_dim agar saya tidak hanya melihat angka gaji, tetapi juga mengetahui identitas perusahaan yang mempekerjakan posisi tersebut.
+
+```sql
+SELECT
+    job_id,
+    job_title,
+    salary_year_avg,
+    job_schedule_type,
+    job_posted_date,
+    company_dim.name AS company_name
+FROM 
+    job_postings_fact
+LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id 
+WHERE 
+    salary_year_avg IS NOT NULL AND
+    job_location = 'Anywhere' AND
+    job_title_short = 'Data Analyst'
+ORDER BY 
+    salary_year_avg DESC
+LIMIT 10;
+```
+## Visualisasi menggunakan Excel
+<img width="991" height="552" alt="image" src="https://github.com/user-attachments/assets/7a2b2e84-5492-45ec-bf5b-edaebbc896e2" />
+
+*Saat ini untuk Data Analyst Remote masih menjadi top 5 Most Highest paying job!*
+
+## Insight
+Dari analisis ini aku bisa melihat bahwa rencanaku untuk menjadi seorang Data Analyst secara Remote masih menjadi pilihan yang bagus, dengan data pendukung bahwa posisi Data Analyst Remote masih berada pada Top 5 Highest Paying Data Analyst Job!
+
