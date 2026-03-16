@@ -1,6 +1,6 @@
 # INTERMEDIATE SQL - Sales Analysis
 ## OVERVIEW
-Analisis perilaku pelanggan, retensi, dan nilai seumur hidup (lifetime value) untuk perusahaan e-commerce guna meningkatkan retensi pelanggan dan memaksimalkan pendapatan. Proyek ini juga merupakan kelanjutan dari proses pendalaman SQL saya, di mana saya mempelajari beberapa fungsi tambahan seperti window functions dan optimasi kueri.
+Analisis perilaku pelanggan, retensi, dan nilai seumur hidup (lifetime value) untuk perusahaan e-commerce guna meningkatkan retensi pelanggan dan memaksimalkan pendapatan. Proyek ini juga merupakan kelanjutan dari proses pendalaman SQL saya, di mana saya mempelajari beberapa fungsi tambahan seperti window functions dan optimasi query.
 
 ## Business Questions
 1. **Customer Segmentation**: Siapa pelanggan kita yang paling berharga?
